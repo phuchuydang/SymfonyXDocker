@@ -18,6 +18,7 @@ From the "Terminal" tab, and run the following command.
 3. Go inside php container: `docker exec -it php /bin/sh`
 4. Copy the .env file: `cp .env.dist .env`
 5. Install the dependencies: `composer install`
+6. Generate the JWT Keys: `bin/console lexik:jwt:generate-keypair`
 
 ## Usage
 1. To access the site: http://localhost:80
